@@ -5,18 +5,28 @@ This wasn’t just a network setup — it was a deep dive into real-world proble
 
 💥 What we faced:
 🔸 No VLANs – All departments shared the same broadcast domain.
+
 🔸 Single path communication – One router down? Entire segments lost.
+
 🔸 No load balancing – Traffic congestion and poor performance.
+
 🔸 DHCP attacks, MAC flooding, SSH brute force threats… and more.
 
 🛡️ What we implemented:
 ✔️ DHCP Snooping – to block rogue DHCP servers and detect starvation attacks
+
 ✔️ Port Security – to prevent MAC flooding attacks
+
 ✔️ AAA (Local, RADIUS, TACACS+) – for access control & secure authentication
+
 ✔️ Syslog Server – for centralized event tracking
+
 ✔️ ACLs – to block IP spoofing, invalid ranges, and multicast attacks
+
 ✔️ SSH Hardening – to resist brute-force login attempts
+
 ✔️ Dynamic (OSPF) + Static Routing – for scalability with stability
+
 ✔️ Essential Services – HTTP (student portal), Mail, DNS, FTP, NTP
 
 💡 What this project taught me:
