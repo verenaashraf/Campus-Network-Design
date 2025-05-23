@@ -1,9 +1,11 @@
 🔐 Real-World Network Challenges? We Faced Them – and Solved Them! 🌐✨
 
 I’m incredibly proud to share our Campus Network Design Project completed .
+
 This wasn’t just a network setup — it was a deep dive into real-world problems and how to secure and improve a campus network .
 
 💥 What we faced:
+
 🔸 No VLANs – All departments shared the same broadcast domain.
 
 🔸 Single path communication – One router down? Entire segments lost.
